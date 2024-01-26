@@ -1,0 +1,43 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+$base-url: './assets/' !default;
+$image-url: './assets/images/' !default;
+$font-url: './assets/fonts/' !default;
+
+$primary-font: 'Outfit', sans-serif;
+$primary-color: #101920;
+$secondary-color: #03A9F4;
+$white-color: #ffffff;
+$black-color: #000000;
+$gray-color: #F6F6F6;
+$gray-color-2: #808080;
+$gray-color-3: #F3F3F3;
+$gray-color-4: #e2e2e2;
+$gray-color-5: #C6C9CE;
+$border-color: #DBDBDB;
+$accent-color: #F6893B;
+$light-color: #949AA1;
+$dark-gray: #707070;
+$text-color: #293847;
+$dark-color: #1C252E;
+
+
+:root {
+	--primary-font: #{$primary-font};
+	--primary-color: #{$primary-color};
+	--secondary-color: #{$secondary-color};
+	--white-color: #{$white-color};
+	--black-color: #{$black-color};
+	--gray-color: #{$gray-color};
+	--gray-color-2: #{$gray-color-2};
+	--gray-color-3: #{$gray-color-3};
+	--gray-color-4: #{$gray-color-4};
+	--gray-color-5: #{$gray-color-5};
+	--border-color: #{$border-color};
+	--accent-color: #{$accent-color};
+	--light-color: #{$light-color};
+	--dark-gray: #{$dark-gray};
+	--text-color: #{$text-color};
+	--text-gray: #{$text-color};
+}

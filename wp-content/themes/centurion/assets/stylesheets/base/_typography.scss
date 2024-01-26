@@ -1,0 +1,118 @@
+/**
+ * Basic typography style for copy text
+ */
+html {
+    font-size: 16px;
+    body {
+        font-family: var(--primary-font);
+        color: var(--text-color);
+        line-height: 1;
+        font-size: 1.125rem;
+        font-weight: 400;
+        &.single-landingpages {
+            font-size: 1rem;
+        }
+    }
+    @include responsive("xs-sm") {
+        font-size: 15px;
+    }
+
+    @include responsive("xs") {
+        font-size: 14px;
+    }
+
+    @include responsive("mobile") {
+        font-size: 13px;
+    }
+}
+
+a {
+    @include transition(300ms);
+    line-height: 1.2;
+}
+p,
+li {
+    line-height: 1.4;
+    @include responsive(mobile) {
+        font-size: 18px;
+    }
+}
+p {
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+a,
+button,
+input[type="submit"] {
+    @include on-event() {
+        outline: none !important;
+    }
+}
+
+@include headings {
+    font-weight: 600;
+}
+h2 {
+    font-size: 3.875rem;
+    @include responsive(xs-sm) {
+        font-size: 3rem;
+    }
+    @include responsive(xs) {
+        font-size: 2.75rem;
+    }
+    @include responsive(mobile) {
+        font-size: 2.35rem;
+    }
+}
+h3 {
+    font-size: 2.5rem;
+    @include responsive(mobile) {
+        font-size: 2rem;
+    }
+}
+h4 {
+    font-size: 1.375rem;
+    margin-bottom: 1rem;
+}
+h5 {
+    font-size: 1rem;
+}
+.extra-samll-text {
+    font-size: 14px;
+}
+
+.small-text {
+    font-size: 1rem;
+}
+
+.medium-text {
+    font-size: 1.125rem;
+}
+.fw-semibold {
+    font-weight: 600;
+}
+
+.medium-heading {
+    @include headings {
+        font-size: 3.375rem;
+    }
+}
+
+.small-heading {
+    @include headings {
+        font-size: 2.125rem;
+    }
+}
+
+.small-heading-static {
+    @include headings {
+        font-size: 34px;
+    }
+}
+
+
+.subheading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}

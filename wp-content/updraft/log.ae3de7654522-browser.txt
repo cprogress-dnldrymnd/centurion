@@ -1,0 +1,131 @@
+0000.062 (R) [notice] Looking for db archive: file name: backup_2024-01-26-1146_Centurion_8c448c38e098-db.gz
+0000.062 (R) [notice] Archive is expected to be size: 330.8 KB: OK
+0000.067 (R) [notice] Looking for plugins archive: file name: backup_2024-01-26-1146_Centurion_8c448c38e098-plugins.zip
+0000.068 (R) [notice] Archive is expected to be size: 10018.3 KB: OK
+0000.071 (R) [notice] Looking for themes archive: file name: backup_2024-01-26-1146_Centurion_8c448c38e098-themes.zip
+0000.073 (R) [notice] Archive is expected to be size: 16753.4 KB: OK
+0000.076 (R) [notice] Looking for others archive: file name: backup_2024-01-26-1146_Centurion_8c448c38e098-others.zip
+0000.077 (R) [notice] Archive is expected to be size: 785.2 KB: OK
+0000.080 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.082 (R) [notice] Unpacking backup... (backup_2024-01-26-1146_Centurion_8c448c38e098-db.gz, 0.3 Mb)
+0000.085 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.137 (R) [notice] Enabling Maintenance mode&#8230;
+0000.167 (R) [notice] Backup of: https://digitallydisruptive.co.uk/centurion
+0000.183 (R) [notice] Content URL: https://digitallydisruptive.co.uk/centurion/wp-content
+0000.183 (R) [notice] Uploads URL: https://digitallydisruptive.co.uk/centurion/wp-content/uploads
+0000.183 (R) [notice] Old table prefix: YYvYlN3_
+0000.183 (R) [notice] Old ABSPATH: /home/disruptivecp/public_html/centurion/
+0000.183 (R) [notice] UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.184 (R) [notice] Site information: multisite = 0
+0000.184 (R) [notice] Site information: sql_mode = 
+0000.185 (R) [notice] New table prefix: 1c_
+0000.188 (R) [notice] Processing table (InnoDB):  YYvYlN3_options - will restore as: 1c_options
+0000.303 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.307 (R) [notice] Atomic restore: renaming new table (1c_options) to final table name (wp_options)
+0000.577 (R) [notice] Table prefix has changed: changing option table field(s) accordingly: OK
+0000.590 (R) [notice] Search and replacing table: wp_options: rows: 302
+0000.632 (R) [notice] Processing table (InnoDB):  YYvYlN3_users - will restore as: 1c_users
+0000.660 (R) [notice] Atomic restore: dropping original table (wp_users)
+0000.664 (R) [notice] Atomic restore: renaming new table (1c_users) to final table name (wp_users)
+0000.681 (R) [notice] Search and replacing table: wp_users: rows: 1
+0000.683 (R) [notice] Processing table (InnoDB):  YYvYlN3_usermeta - will restore as: 1c_usermeta
+0000.702 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0000.705 (R) [notice] Atomic restore: renaming new table (1c_usermeta) to final table name (wp_usermeta)
+0000.712 (R) [notice] Table prefix has changed: changing usermeta table field(s) accordingly: OK
+0000.725 (R) [notice] Search and replacing table: wp_usermeta: rows: 26
+0000.726 (R) [notice] Processing table (InnoDB):  YYvYlN3_commentmeta - will restore as: 1c_commentmeta
+0000.749 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0000.752 (R) [notice] Atomic restore: renaming new table (1c_commentmeta) to final table name (wp_commentmeta)
+0000.770 (R) [notice] Search and replacing table: wp_commentmeta: rows: 0
+0000.770 (R) [notice] Processing table (InnoDB):  YYvYlN3_comments - will restore as: 1c_comments
+0000.809 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0000.828 (R) [notice] Atomic restore: renaming new table (1c_comments) to final table name (wp_comments)
+0000.850 (R) [notice] Search and replacing table: wp_comments: rows: 1
+0000.851 (R) [notice] Processing table (InnoDB):  YYvYlN3_links - will restore as: 1c_links
+0000.878 (R) [notice] Atomic restore: dropping original table (wp_links)
+0000.881 (R) [notice] Atomic restore: renaming new table (1c_links) to final table name (wp_links)
+0000.898 (R) [notice] Search and replacing table: wp_links: rows: 0
+0000.898 (R) [notice] Processing table (InnoDB):  YYvYlN3_postmeta - will restore as: 1c_postmeta
+0001.018 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0001.022 (R) [notice] Atomic restore: renaming new table (1c_postmeta) to final table name (wp_postmeta)
+0001.065 (R) [notice] Search and replacing table: wp_postmeta: rows: 64
+0001.101 (R) [notice] Processing table (InnoDB):  YYvYlN3_posts - will restore as: 1c_posts
+0001.141 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0001.146 (R) [notice] Atomic restore: renaming new table (1c_posts) to final table name (wp_posts)
+0001.164 (R) [notice] Search and replacing table: wp_posts: rows: 109
+0001.199 (R) [notice] Processing table (InnoDB):  YYvYlN3_term_relationships - will restore as: 1c_term_relationships
+0001.228 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0001.233 (R) [notice] Atomic restore: renaming new table (1c_term_relationships) to final table name (wp_term_relationships)
+0001.239 (R) [notice] Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0001.239 (R) [notice] Processing table (InnoDB):  YYvYlN3_term_taxonomy - will restore as: 1c_term_taxonomy
+0001.262 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0001.269 (R) [notice] Atomic restore: renaming new table (1c_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.292 (R) [notice] Search and replacing table: wp_term_taxonomy: rows: 2
+0001.293 (R) [notice] Processing table (InnoDB):  YYvYlN3_termmeta - will restore as: 1c_termmeta
+0001.316 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0001.320 (R) [notice] Atomic restore: renaming new table (1c_termmeta) to final table name (wp_termmeta)
+0001.346 (R) [notice] Search and replacing table: wp_termmeta: rows: 0
+0001.347 (R) [notice] Processing table (InnoDB):  YYvYlN3_terms - will restore as: 1c_terms
+0001.380 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0001.384 (R) [notice] Atomic restore: renaming new table (1c_terms) to final table name (wp_terms)
+0001.402 (R) [notice] Search and replacing table: wp_terms: rows: 2
+0001.403 (R) [notice] Processing table (InnoDB):  YYvYlN3_grp_google_place - will restore as: 1c_grp_google_place
+0001.432 (R) [notice] Atomic restore: dropping original table (wp_grp_google_place)
+0001.432 (R) [notice] Atomic restore: renaming new table (1c_grp_google_place) to final table name (wp_grp_google_place)
+0001.456 (R) [notice] Search and replacing table: wp_grp_google_place: rows: 0
+0001.457 (R) [notice] Processing table (InnoDB):  YYvYlN3_grp_google_review - will restore as: 1c_grp_google_review
+0001.482 (R) [notice] Atomic restore: dropping original table (wp_grp_google_review)
+0001.482 (R) [notice] Atomic restore: renaming new table (1c_grp_google_review) to final table name (wp_grp_google_review)
+0001.502 (R) [notice] Search and replacing table: wp_grp_google_review: rows: 0
+0001.502 (R) [notice] Processing table (InnoDB):  YYvYlN3_grp_google_stats - will restore as: 1c_grp_google_stats
+0001.524 (R) [notice] Disabling Maintenance mode&#8230;
+0001.525 (R) [notice] Atomic restore: dropping original table (wp_grp_google_stats)
+0001.525 (R) [notice] Atomic restore: renaming new table (1c_grp_google_stats) to final table name (wp_grp_google_stats)
+0001.543 (R) [notice] Search and replacing table: wp_grp_google_stats: rows: 0
+0001.543 (R) [notice] Finished: lines processed: 48 in 1.45 seconds
+0001.544 (R) [notice] Cleaning up rubbish...
+0001.546 (R) [notice] Database search and replace: replace https://digitallydisruptive.co.uk/centurion in backup dump with http://localhost/github/centurion
+0001.546 (R) [notice] Database search and replace: replace http://www.digitallydisruptive.co.uk/centurion in backup dump with http://localhost/github/centurion
+0001.546 (R) [notice] Database search and replace: replace http://digitallydisruptive.co.uk/centurion in backup dump with http://localhost/github/centurion
+0001.546 (R) [notice] Database search and replace: replace https://www.digitallydisruptive.co.uk/centurion in backup dump with http://localhost/github/centurion
+0001.546 (R) [notice] Database search and replace: replace /home/disruptivecp/public_html/centurion in backup dump with C:\xampp\htdocs\github\centurion
+0001.547 (R) [notice] Search and replacing table: wp_commentmeta: already done
+0001.547 (R) [notice] Search and replacing table: wp_comments: already done
+0001.547 (R) [notice] Search and replacing table: wp_grp_google_place: already done
+0001.547 (R) [notice] Search and replacing table: wp_grp_google_review: already done
+0001.547 (R) [notice] Search and replacing table: wp_grp_google_stats: already done
+0001.548 (R) [notice] Search and replacing table: wp_links: already done
+0001.548 (R) [notice] Search and replacing table: wp_options: already done
+0001.548 (R) [notice] Search and replacing table: wp_postmeta: already done
+0001.548 (R) [notice] Search and replacing table: wp_posts: already done
+0001.548 (R) [notice] Search and replacing table: wp_term_relationships: already done
+0001.548 (R) [notice] Search and replacing table: wp_term_taxonomy: already done
+0001.548 (R) [notice] Search and replacing table: wp_termmeta: already done
+0001.548 (R) [notice] Search and replacing table: wp_terms: already done
+0001.549 (R) [notice] Search and replacing table: wp_usermeta: already done
+0001.549 (R) [notice] Search and replacing table: wp_users: already done
+0001.549 (R) [notice] Tables examined: 14
+0001.549 (R) [notice] Rows examined: 507
+0001.549 (R) [notice] Changes made: 52
+0001.549 (R) [notice] SQL update commands run: 52
+0001.549 (R) [notice] Errors: 0
+0001.549 (R) [notice] Time taken (seconds): 0.338
+0001.564 (R) [notice] Unpacking backup... (backup_2024-01-26-1146_Centurion_8c448c38e098-plugins.zip, 9.8 MB)
+0002.817 (R) [notice] Unzip progress: 1002 out of 2330 files (12.2 MB, plugins/carbon-fields/vendor/htmlburger/carbon-fields/packages/metaboxes/components/field/style.scss)
+0005.975 (R) [notice] Unzip progress: 2003 out of 2330 files (34.4 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/PersistentObject.php)
+0007.504 (R) [notice] Unzip progress: 2330 out of 2330 files (35.5 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Description/SchemaValidator.php)
+0007.509 (R) [notice] Moving old data out of the way...
+0008.096 (R) [notice] Moving unpacked backup into place...
+0008.681 (R) [notice] Cleaning up rubbish...
+0008.689 (R) [notice] Unpacking backup... (backup_2024-01-26-1146_Centurion_8c448c38e098-themes.zip, 16.4 MB)
+0009.485 (R) [notice] Unzip progress: 622 out of 622 files (24.3 MB, themes/twentytwentyfour/screenshot.png)
+0009.490 (R) [notice] Moving old data out of the way...
+0009.647 (R) [notice] Moving unpacked backup into place...
+0009.811 (R) [notice] Cleaning up rubbish...
+0009.817 (R) [notice] Unpacking backup... (backup_2024-01-26-1146_Centurion_8c448c38e098-others.zip, 0.8 MB)
+0009.956 (R) [notice] Unzip progress: 85 out of 85 files (3.2 MB, languages/en_GB-6025add6bde16aaeb12787d250f9b414.json)
+0009.975 (R) [notice] Cleaning up rubbish...
+0009.976 (R) [notice] Error: Failed to delete working directory after restoring. (C:/xampp/htdocs/github/centurion/wp-content/upgrade/a797ed8d)
+0009.977 (R) [notice] Files found:
+0009.977 (R) [notice] * upgrade
+0009.999 (R) [notice] Restore successful!

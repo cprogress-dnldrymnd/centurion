@@ -1,0 +1,184 @@
+0000.030 () Opened log file at time: Fri, 26 Jan 2024 11:49:36 +0000 on http://localhost/github/centurion
+0000.031 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 8.2.4 (apache2handler, Windows NT BOSS_D 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.28-MariaDB (max packet size=33554432) WPLANG: en_GB Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 1G (used: 48.7M | 50M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.031 () Free space on disk containing Updraft's temporary directory: 561547.4 MB
+0000.647 () Restore setup, now closing connection and starting restore over AJAX.
+0000.025 () Opened log file at time: Fri, 26 Jan 2024 11:49:37 +0000 on http://localhost/github/centurion
+0000.026 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 8.2.4 (apache2handler, Windows NT BOSS_D 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.28-MariaDB (max packet size=33554432) WPLANG: en_GB Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 1G (used: 46.1M | 48M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.026 () Free space on disk containing Updraft's temporary directory: 561547.3 MB
+0000.052 () Ensuring WP_Filesystem is setup for a restore
+0000.056 () WP_Filesystem is setup and ready for a restore
+0000.061 () Restore job started. Entities to restore: plugins, themes, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["YYvYlN3_options","YYvYlN3_users","YYvYlN3_usermeta","YYvYlN3_commentmeta","YYvYlN3_comments","YYvYlN3_links","YYvYlN3_postmeta","YYvYlN3_posts","YYvYlN3_term_relationships","YYvYlN3_term_taxonomy","YYvYlN3_termmeta","YYvYlN3_terms","YYvYlN3_grp_google_place","YYvYlN3_grp_google_review","YYvYlN3_grp_google_stats"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.066 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\xampp\htdocs\github\centurion\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.080 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.081 () Entity: db
+0000.081 () restore_backup(backup_file=backup_2024-01-26-1146_Centurion_8c448c38e098-db.gz, type=db, info=a:0:{}, last_one=)
+0000.082 () Unpacking backup... (backup_2024-01-26-1146_Centurion_8c448c38e098-db.gz, 0.3 Mb)
+0000.082 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\xampp\htdocs\github\centurion\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.084 () Database successfully unpacked
+0000.084 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$siteurl is deprecated (line 305, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.084 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$home is deprecated (line 306, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.084 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$content is deprecated (line 307, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.084 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$use_wpdb is deprecated (line 308, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.084 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$base_prefix is deprecated (line 310, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.084 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$mysql_dbh is deprecated (line 328, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.085 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$use_mysqli is deprecated (line 329, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.085 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$report is deprecated (line 342, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.085 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.092 () Using direct MySQL access; value of use_mysqli is: 1
+0000.093 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.137 () Max packet size: 32 MB
+0000.137 () Entering maintenance mode
+0000.137 () Enabling Maintenance mode&#8230;
+0000.167 () Backup of: https://digitallydisruptive.co.uk/centurion
+0000.167 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$old_siteurl is deprecated (line 268, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.183 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$old_home is deprecated (line 274, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.183 () Content URL: https://digitallydisruptive.co.uk/centurion/wp-content
+0000.183 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$old_content is deprecated (line 280, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.183 () Uploads URL: https://digitallydisruptive.co.uk/centurion/wp-content/uploads
+0000.183 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$old_uploads is deprecated (line 286, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.183 () Old table prefix: YYvYlN3_
+0000.183 () Old ABSPATH: /home/disruptivecp/public_html/centurion/
+0000.183 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.184 () Site information: multisite=0
+0000.184 () Site information: sql_mode=
+0000.185 () New table prefix: 1c_
+0000.188 () Processing table (InnoDB): YYvYlN3_options - will restore as: 1c_options
+0000.302 () Atomic restore: dropping original table (wp_options)
+0000.307 () Atomic restore: renaming new table (1c_options) to final table name (wp_options)
+0000.313 () Restoring prior UD configuration (table: wp_options; keys: 102)
+0000.412 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0000.412 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0000.412 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0000.412 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0000.412 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0000.412 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0000.430 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0000.438 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0000.441 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\class-manipulation-functions.php)
+0000.481 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 214, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\options.php)
+0000.483 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 214, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\options.php)
+0000.576 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.577 () Options table fields changed OK
+0000.579 () PHP event: code E_DEPRECATED: Creation of dynamic property UpdraftPlus_Migrator_Lite::$tables_replaced is deprecated (line 388, C:\xampp\htdocs\github\centurion\wp-content\plugins\updraftplus\includes\migrator-lite.php)
+0000.590 () Search and replacing table: wp_options: rows: 302
+0000.632 () Processing table (InnoDB): YYvYlN3_users - will restore as: 1c_users
+0000.660 () Atomic restore: dropping original table (wp_users)
+0000.664 () Atomic restore: renaming new table (1c_users) to final table name (wp_users)
+0000.681 () Search and replacing table: wp_users: rows: 1
+0000.683 () Processing table (InnoDB): YYvYlN3_usermeta - will restore as: 1c_usermeta
+0000.702 () Atomic restore: dropping original table (wp_usermeta)
+0000.705 () Atomic restore: renaming new table (1c_usermeta) to final table name (wp_usermeta)
+0000.710 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.712 () Usermeta table fields changed OK
+0000.725 () Search and replacing table: wp_usermeta: rows: 26
+0000.726 () Processing table (InnoDB): YYvYlN3_commentmeta - will restore as: 1c_commentmeta
+0000.749 () Atomic restore: dropping original table (wp_commentmeta)
+0000.752 () Atomic restore: renaming new table (1c_commentmeta) to final table name (wp_commentmeta)
+0000.770 () Search and replacing table: wp_commentmeta: rows: 0
+0000.770 () Processing table (InnoDB): YYvYlN3_comments - will restore as: 1c_comments
+0000.809 () Atomic restore: dropping original table (wp_comments)
+0000.828 () Atomic restore: renaming new table (1c_comments) to final table name (wp_comments)
+0000.850 () Search and replacing table: wp_comments: rows: 1
+0000.851 () Processing table (InnoDB): YYvYlN3_links - will restore as: 1c_links
+0000.878 () Atomic restore: dropping original table (wp_links)
+0000.881 () Atomic restore: renaming new table (1c_links) to final table name (wp_links)
+0000.898 () Search and replacing table: wp_links: rows: 0
+0000.898 () Processing table (InnoDB): YYvYlN3_postmeta - will restore as: 1c_postmeta
+0001.018 () Atomic restore: dropping original table (wp_postmeta)
+0001.022 () Atomic restore: renaming new table (1c_postmeta) to final table name (wp_postmeta)
+0001.065 () Search and replacing table: wp_postmeta: rows: 64
+0001.101 () Processing table (InnoDB): YYvYlN3_posts - will restore as: 1c_posts
+0001.141 () Atomic restore: dropping original table (wp_posts)
+0001.146 () Atomic restore: renaming new table (1c_posts) to final table name (wp_posts)
+0001.164 () Skipping search/replace on GUID column in posts table
+0001.165 () Search and replacing table: wp_posts: rows: 109
+0001.199 () Processing table (InnoDB): YYvYlN3_term_relationships - will restore as: 1c_term_relationships
+0001.228 () Atomic restore: dropping original table (wp_term_relationships)
+0001.233 () Atomic restore: renaming new table (1c_term_relationships) to final table name (wp_term_relationships)
+0001.239 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0001.239 () Processing table (InnoDB): YYvYlN3_term_taxonomy - will restore as: 1c_term_taxonomy
+0001.262 () Atomic restore: dropping original table (wp_term_taxonomy)
+0001.269 () Atomic restore: renaming new table (1c_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.292 () Search and replacing table: wp_term_taxonomy: rows: 2
+0001.293 () Processing table (InnoDB): YYvYlN3_termmeta - will restore as: 1c_termmeta
+0001.316 () Atomic restore: dropping original table (wp_termmeta)
+0001.320 () Atomic restore: renaming new table (1c_termmeta) to final table name (wp_termmeta)
+0001.346 () Search and replacing table: wp_termmeta: rows: 0
+0001.347 () Processing table (InnoDB): YYvYlN3_terms - will restore as: 1c_terms
+0001.380 () Atomic restore: dropping original table (wp_terms)
+0001.383 () Atomic restore: renaming new table (1c_terms) to final table name (wp_terms)
+0001.402 () Search and replacing table: wp_terms: rows: 2
+0001.403 () Processing table (InnoDB): YYvYlN3_grp_google_place - will restore as: 1c_grp_google_place
+0001.432 () Atomic restore: dropping original table (wp_grp_google_place)
+0001.432 () Atomic restore: renaming new table (1c_grp_google_place) to final table name (wp_grp_google_place)
+0001.457 () Search and replacing table: wp_grp_google_place: rows: 0
+0001.457 () Processing table (InnoDB): YYvYlN3_grp_google_review - will restore as: 1c_grp_google_review
+0001.481 () Atomic restore: dropping original table (wp_grp_google_review)
+0001.482 () Atomic restore: renaming new table (1c_grp_google_review) to final table name (wp_grp_google_review)
+0001.502 () Search and replacing table: wp_grp_google_review: rows: 0
+0001.502 () Processing table (InnoDB): YYvYlN3_grp_google_stats - will restore as: 1c_grp_google_stats
+0001.524 () Unlocking database and leaving maintenance mode
+0001.524 () Disabling Maintenance mode&#8230;
+0001.525 () Atomic restore: dropping original table (wp_grp_google_stats)
+0001.525 () Atomic restore: renaming new table (1c_grp_google_stats) to final table name (wp_grp_google_stats)
+0001.543 () Search and replacing table: wp_grp_google_stats: rows: 0
+0001.543 () Finished: lines processed: 48 in 1.45 seconds
+0001.544 () Cleaning up rubbish...
+0001.545 () Begin search and replace (updraftplus_restored_db)
+0001.545 () [Database-replace-site-url] Database: search and replace site URL
+0001.546 () Database search and replace: replace https://digitallydisruptive.co.uk/centurion in backup dump with http://localhost/github/centurion
+0001.546 () Database search and replace: replace http://www.digitallydisruptive.co.uk/centurion in backup dump with http://localhost/github/centurion
+0001.546 () Database search and replace: replace http://digitallydisruptive.co.uk/centurion in backup dump with http://localhost/github/centurion
+0001.546 () Database search and replace: replace https://www.digitallydisruptive.co.uk/centurion in backup dump with http://localhost/github/centurion
+0001.546 () Database search and replace: replace /home/disruptivecp/public_html/centurion in backup dump with C:\xampp\htdocs\github\centurion
+0001.547 () Search and replacing table: wp_commentmeta: already done
+0001.547 () Search and replacing table: wp_comments: already done
+0001.547 () Search and replacing table: wp_grp_google_place: already done
+0001.547 () Search and replacing table: wp_grp_google_review: already done
+0001.548 () Search and replacing table: wp_grp_google_stats: already done
+0001.548 () Search and replacing table: wp_links: already done
+0001.548 () Search and replacing table: wp_options: already done
+0001.548 () Search and replacing table: wp_postmeta: already done
+0001.548 () Search and replacing table: wp_posts: already done
+0001.548 () Search and replacing table: wp_term_relationships: already done
+0001.548 () Search and replacing table: wp_term_taxonomy: already done
+0001.548 () Search and replacing table: wp_termmeta: already done
+0001.548 () Search and replacing table: wp_terms: already done
+0001.549 () Search and replacing table: wp_usermeta: already done
+0001.549 () Search and replacing table: wp_users: already done
+0001.564 () Entity: plugins
+0001.564 () restore_backup(backup_file=backup_2024-01-26-1146_Centurion_8c448c38e098-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:51:"C:\xampp\htdocs\github\centurion/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0001.564 () Unpacking backup... (backup_2024-01-26-1146_Centurion_8c448c38e098-plugins.zip, 9.8 MB)
+0001.583 () Unzipping backup_2024-01-26-1146_Centurion_8c448c38e098-plugins.zip to C:/xampp/htdocs/github/centurion/wp-content/upgrade/79b205c5/ using UpdraftPlus_PclZip, starting index 0
+0002.817 () Unzip progress: 1002 out of 2330 files (12.2 MB, plugins/carbon-fields/vendor/htmlburger/carbon-fields/packages/metaboxes/components/field/style.scss)
+0005.976 () Unzip progress: 2003 out of 2330 files (34.4 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/PersistentObject.php)
+0007.504 () Unzip progress: 2330 out of 2330 files (35.5 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Description/SchemaValidator.php)
+0007.508 () Moving old data: filesystem method / updraft_dir is potentially possible
+0007.509 () Moving old data: can potentially use wp_filesystem method / -old
+0007.509 () Moving old data out of the way...
+0008.079 () Top-level entities being moved: akismet, carbon-fields, contact-form-7, hello.php, index.php, updraftplus
+0008.096 () Moving unpacked backup into place...
+0008.667 () Top-level entities being moved: carbon-fields, contact-form-7, index.php, updraftplus
+0008.681 () Cleaning up rubbish...
+0008.687 () Entity: themes
+0008.687 () restore_backup(backup_file=backup_2024-01-26-1146_Centurion_8c448c38e098-themes.zip, type=themes, info=a:3:{s:4:"path";s:50:"C:\xampp\htdocs\github\centurion/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0008.689 () Unpacking backup... (backup_2024-01-26-1146_Centurion_8c448c38e098-themes.zip, 16.4 MB)
+0008.690 () Unzipping backup_2024-01-26-1146_Centurion_8c448c38e098-themes.zip to C:/xampp/htdocs/github/centurion/wp-content/upgrade/f4f58166/ using UpdraftPlus_PclZip, starting index 0
+0009.486 () Unzip progress: 622 out of 622 files (24.3 MB, themes/twentytwentyfour/screenshot.png)
+0009.489 () Moving old data: filesystem method / updraft_dir is potentially possible
+0009.490 () Moving old data: can potentially use wp_filesystem method / -old
+0009.490 () Moving old data out of the way...
+0009.633 () Top-level entities being moved: centurion, index.php, twentytwentyfour, twentytwentythree, twentytwentytwo, wes.zip
+0009.647 () Moving unpacked backup into place...
+0009.796 () Top-level entities being moved: centurion, index.php, twentytwentyfour, twentytwentythree, twentytwentytwo, wes.zip
+0009.811 () Cleaning up rubbish...
+0009.817 () Entity: others
+0009.817 () restore_backup(backup_file=backup_2024-01-26-1146_Centurion_8c448c38e098-others.zip, type=others, info=a:2:{s:4:"path";s:43:"C:\xampp\htdocs\github\centurion/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0009.817 () Unpacking backup... (backup_2024-01-26-1146_Centurion_8c448c38e098-others.zip, 0.8 MB)
+0009.819 () Unzipping backup_2024-01-26-1146_Centurion_8c448c38e098-others.zip to C:/xampp/htdocs/github/centurion/wp-content/upgrade/a797ed8d/ using UpdraftPlus_PclZip, starting index 0
+0009.956 () Unzip progress: 85 out of 85 files (3.2 MB, languages/en_GB-6025add6bde16aaeb12787d250f9b414.json)
+0009.975 () Cleaning up rubbish...
+0009.976 () PHP event: code E_WARNING: rmdir(C:/xampp/htdocs/github/centurion/wp-content/upgrade/a797ed8d): Directory not empty (line 386, C:\xampp\htdocs\github\centurion\wp-admin\includes\class-wp-filesystem-direct.php)
+0009.976 () Error: Failed to delete working directory after restoring. (C:/xampp/htdocs/github/centurion/wp-content/upgrade/a797ed8d)
+0009.999 () Restore successful!
+0009.999 () Restore successful
