@@ -82,6 +82,22 @@ section.testimonials {
 	padding-left: 3rem;
 	padding-right: 3rem;
 
+	.author-box {
+		.avatar {
+			width: 40px;
+			height: 40px;
+			font-weight: bold;
+			font-size: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: #689f38;
+			border-radius: 50%;
+			color: var(--white-color);
+			margin-right: 1rem;
+		}
+	}
+
 	@include responsive(xs) {
 		padding-left: 4rem;
 		padding-right: 4rem;
