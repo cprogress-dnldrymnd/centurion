@@ -1,0 +1,7 @@
+0000.000 (1) Opened log file at time: Fri, 26 Jan 2024 11:51:06 +0000 on http://localhost/github/centurion
+0000.002 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.16 WP: 6.4.2 PHP: 8.2.4 (apache2handler, Windows NT BOSS_D 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.28-MariaDB (max packet size=33554432) WPLANG: en_GB Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 1G (used: 36.2M | 38M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.004 (1) Free space on disk containing Updraft's temporary directory: 561417.8 MB
+0000.006 (1) Requesting backup semaphore lock (8c448c38e098)
+0000.008 (1) [Debug] Lock option (updraft_lock_8c448c38e098, wp_options) was created in the database
+0000.010 (1) [Info] Lock (updraft_lock_8c448c38e098, wp_options) acquired after initialising the database
+0000.018 (1) This backup task (8c448c38e098) is either complete or began over 2 days ago: ending (1706269866.445, ) (existing jobdata keys: )

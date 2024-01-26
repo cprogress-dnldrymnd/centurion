@@ -21,12 +21,25 @@ $testimonials = $GetData->get_posts_ids('testimonials');
                 'heading' => get__theme_option('testimonial_heading')
             ), 'small-heading text-center mb-5');
             ?>
-            <div class="testimonial-box position-relative mb-md-5">
-                <div class="swiper mySwiper-Testimonial">
-                    <div class="swiper-wrapper">
-                        <?php foreach ($testimonials as $key =>  $testimonial) { ?>
-                            <div class="swiper-slide ">
-                                <div class="swiper-holder h-100">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="google-reviews text-center">
+                        <h4>5 Star Rated</h4>
+                        <div class="stars d-inline-flex align-items-center mb-2">
+                            <?php for ($i = 1; $i <= 5; $i++) { ?>
+                                <span><?= $SVG->star; ?></span>
+                            <?php } ?>
+                        </div>
+                        <p>
+                            Based on <strong>51 reviews</strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="testimonial-box position-relative mb-md-5">
+                        <div class="row">
+                            <?php foreach ($testimonials as $key =>  $testimonial) { ?>
+                                <div class="col-md-4 ">
                                     <div class="rating-box d-flex justify-content-between mb-3">
                                         <div class="stars ">
                                             <div class="stars-holder d-flex align-items-center">
@@ -54,13 +67,9 @@ $testimonials = $GetData->get_posts_ids('testimonials');
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        <?php } ?>
+                            <?php } ?>
+                        </div>
                     </div>
-                </div>
-                <div class="swiper-buttons">
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
                 </div>
             </div>
 
